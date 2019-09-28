@@ -1,0 +1,14 @@
+[version]
+^0.92.0
+
+[ignore]
+
+[untyped]
+.*/node_modules/@react-native-community/cli/.*/.*
+
+[include]
+
+[libs]
+<PROJECT_ROOT>/types
+
+[options]

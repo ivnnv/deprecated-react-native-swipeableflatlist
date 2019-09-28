@@ -1,0 +1,36 @@
+{
+  "name": "deprecated-react-native-swipeable-flatlist",
+  "version": "0.0.1",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:facebookarchive/deprecated-react-native-swipeable-flatlist.git"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "@react-native-community/cli": "^3.0.0-alpha.2",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/generator": "^7.0.0",
+    "@react-native-community/eslint-plugin": "1.0.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-flowtype": "2.50.3",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-native": "3.6.0",
+    "flow-bin": "0.92.0",
+    "flow-remove-types": "1.2.3",
+    "prettier": "1.17.0",
+    "react": "16.9.0",
+    "react-native": "0.59.10"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
