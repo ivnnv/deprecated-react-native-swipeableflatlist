@@ -1,20 +1,42 @@
 {
-  "name": "deprecated-react-native-swipeable-flatlist",
-  "version": "0.0.1",
-  "description": "",
+  "name": "deprecated-react-native-swipeableflatlist",
+  "version": "0.1.0",
+  "description": "Deprecated SwipeableFlatList component from react native 59.10.0",
   "license": "BSD-3-Clause",
+  "author": "Ivn Nv",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/ivnnv/deprecated-react-native-swipeableflatlist/issues"
+  },
+  "homepage": "https://github.com/ivnnv/deprecated-react-native-swipeableflatlist#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:facebookarchive/deprecated-react-native-swipeable-flatlist.git"
+    "url": "git+https://github.com/ivnnv/deprecated-react-native-swipeableflatlist.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "flatlist",
+    "swipeable",
+    "row",
+    "action"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0",
-    "@react-native-community/cli": "^3.0.0-alpha.2",
-    "prop-types": "^15.7.2"
+    "@babel/runtime": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/generator": "^7.0.0",
+    "@react-native-community/cli": "^3.0.0-alpha.2",
     "@react-native-community/eslint-plugin": "1.0.0",
     "babel-eslint": "10.0.1",
     "eslint": "5.1.0",
@@ -25,6 +47,7 @@
     "eslint-plugin-react-native": "3.6.0",
     "flow-bin": "^0.92.0",
     "flow-remove-types": "1.2.3",
+    "metro-react-native-babel-preset": "^0.56.0",
     "prettier": "1.17.0",
     "react": "16.9.0",
     "react-native": "0.59.10"
