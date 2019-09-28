@@ -11,7 +11,7 @@
 
 import * as React from 'react';
 import SwipeableRow from './SwipeableRow';
-import {FlatList, VirtualizedList} from 'react-native';
+import {FlatList} from 'react-native';
 
 import type {Props as FlatListProps} from 'react-native/Libraries/Lists/FlatList';
 import type {renderItemType} from 'react-native/Libraries/Lists/VirtualizedList';

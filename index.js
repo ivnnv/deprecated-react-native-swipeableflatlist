@@ -7,5 +7,5 @@ module.exports = {
 	SwipeableFlatList,
 	SwipeableRow,
   SwipeableQuickActionButton,
-  SwipeableQuickActions
-}
+  SwipeableQuickActions,
+};
